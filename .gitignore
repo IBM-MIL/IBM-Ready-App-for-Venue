@@ -1,0 +1,11 @@
+# eclipse workspace files
+.metadata
+MobileFirstServerConfig
+iOS/test-reports/TEST-ChallengesTests.xml
+iOS/test-reports/TEST-DataModelTests.xml
+iOS/test-reports/TEST-NotificationTests.xml
+iOS/test-reports/TEST-PlacesTests.xml
+iOS/test-reports/TEST-VenueAlertTests.xml
+iOS/test-reports/TEST-VenueChallengesUITests.xml
+iOS/test-reports/TEST-VenueMapUITests.xml
+xcuserdata

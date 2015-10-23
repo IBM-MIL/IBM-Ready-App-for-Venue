@@ -1,0 +1,66 @@
+
+/* Class = "UILabel"; text = "Minute Wait"; ObjectID = "3ma-Ta-oHR"; */
+"3ma-Ta-oHR.text" = "Minute Wait";
+
+/* Class = "UIImageView"; accessibilityIdentifier = "avatar"; ObjectID = "6Df-TT-PJD"; */
+"6Df-TT-PJD.accessibilityIdentifier" = "avatar";
+
+/* Class = "UIImageView"; accessibilityLabel = "avatar"; ObjectID = "6Df-TT-PJD"; */
+"6Df-TT-PJD.accessibilityLabel" = "avatar";
+
+/* Class = "UILabel"; text = "Choose a Time"; ObjectID = "Fbu-Zi-naH"; */
+"Fbu-Zi-naH.text" = "Choose a Time";
+
+/* Class = "UILabel"; text = "JK"; ObjectID = "H9F-qD-s24"; */
+"H9F-qD-s24.text" = "JK";
+
+/* Class = "UINavigationItem"; title = "Invite People"; ObjectID = "NwS-5s-1Hl"; */
+"NwS-5s-1Hl.title" = "Invite People";
+
+/* Class = "UILabel"; text = "15"; ObjectID = "Pj9-mi-bTv"; */
+"Pj9-mi-bTv.text" = "15";
+
+/* Class = "UIButton"; accessibilityIdentifier = "sendInvite"; ObjectID = "RQu-Vw-4Nz"; */
+"RQu-Vw-4Nz.accessibilityIdentifier" = "sendInvite";
+
+/* Class = "UIButton"; accessibilityLabel = "sendInvite"; ObjectID = "RQu-Vw-4Nz"; */
+"RQu-Vw-4Nz.accessibilityLabel" = "sendInvite";
+
+/* Class = "UIButton"; accessibilityIdentifier = "inviteButton"; ObjectID = "TX0-t9-yOi"; */
+"TX0-t9-yOi.accessibilityIdentifier" = "inviteButton";
+
+/* Class = "UIButton"; accessibilityLabel = "inviteButton"; ObjectID = "TX0-t9-yOi"; */
+"TX0-t9-yOi.accessibilityLabel" = "inviteButton";
+
+/* Class = "UILabel"; text = "Description"; ObjectID = "aG9-Am-0ww"; */
+"aG9-Am-0ww.text" = "Description";
+
+/* Class = "UIImageView"; accessibilityIdentifier = "avatar"; ObjectID = "aIh-KO-guU"; */
+"aIh-KO-guU.accessibilityIdentifier" = "avatar";
+
+/* Class = "UIImageView"; accessibilityLabel = "avatar"; ObjectID = "aIh-KO-guU"; */
+"aIh-KO-guU.accessibilityLabel" = "avatar";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "dC6-4h-bvF"; */
+"dC6-4h-bvF.text" = "Detail";
+
+/* Class = "UILabel"; text = "Type Details"; ObjectID = "l2N-fN-NS2"; */
+"l2N-fN-NS2.text" = "Type Details";
+
+/* Class = "UILabel"; accessibilityIdentifier = "avatar"; ObjectID = "mpj-7m-5qc"; */
+"mpj-7m-5qc.accessibilityIdentifier" = "avatar";
+
+/* Class = "UILabel"; text = "JK"; ObjectID = "mpj-7m-5qc"; */
+"mpj-7m-5qc.text" = "JK";
+
+/* Class = "UINavigationItem"; title = "Choose A Time"; ObjectID = "q0x-DX-AkO"; */
+"q0x-DX-AkO.title" = "Choose A Time";
+
+/* Class = "UIButton"; normalTitle = "Invite People"; ObjectID = "s5f-Z7-lcy"; */
+"s5f-Z7-lcy.normalTitle" = "Invite People";
+
+/* Class = "UILabel"; text = "Send Invite"; ObjectID = "t68-a0-K2T"; */
+"t68-a0-K2T.text" = "Send Invite";
+
+/* Class = "UILabel"; text = "Ride Title"; ObjectID = "ttz-zK-iST"; */
+"ttz-zK-iST.text" = "Ride Title";

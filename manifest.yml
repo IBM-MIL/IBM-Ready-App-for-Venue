@@ -1,0 +1,8 @@
+applications:
+- disk_quota: 1024M
+  host: ready-app-venue
+  name: Ready App Venue
+  path: nodejs/.
+  domain: mybluemix.net
+  instances: 1
+  memory: 256M

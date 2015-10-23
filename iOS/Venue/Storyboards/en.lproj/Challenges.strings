@@ -1,0 +1,72 @@
+
+/* Class = "UILabel"; text = "Header View"; ObjectID = "0Zk-nq-RGK"; */
+"0Zk-nq-RGK.text" = "Header View";
+
+/* Class = "UILabel"; text = "Share a picture to the feed."; ObjectID = "FGh-el-Rgo"; */
+"FGh-el-Rgo.text" = "Share a picture to the feed.";
+
+/* Class = "UILabel"; text = "JK"; ObjectID = "IbS-Tp-t7W"; */
+"IbS-Tp-t7W.text" = "JK";
+
+/* Class = "UILabel"; accessibilityIdentifier = "badgeTitle"; ObjectID = "L8E-mI-pCO"; */
+"L8E-mI-pCO.accessibilityIdentifier" = "badgeTitle";
+
+/* Class = "UILabel"; text = "Funnel Cake Fanatic"; ObjectID = "L8E-mI-pCO"; */
+"L8E-mI-pCO.text" = "Funnel Cake Fanatic";
+
+/* Class = "UILabel"; accessibilityIdentifier = "funAwardLabel"; ObjectID = "Nvl-Qh-Tqs"; */
+"Nvl-Qh-Tqs.accessibilityIdentifier" = "funAwardLabel";
+
+/* Class = "UILabel"; text = "Fun Award"; ObjectID = "Nvl-Qh-Tqs"; */
+"Nvl-Qh-Tqs.text" = "Fun Award";
+
+/* Class = "UIButton"; normalTitle = "Leaderboard"; ObjectID = "Nwv-bm-icu"; */
+"Nwv-bm-icu.normalTitle" = "Leaderboard";
+
+/* Class = "UILabel"; text = "15"; ObjectID = "Pjx-0n-FhN"; */
+"Pjx-0n-FhN.text" = "15";
+
+/* Class = "UILabel"; text = "Requirements"; ObjectID = "Rkq-BN-9p0"; */
+"Rkq-BN-9p0.text" = "Requirements";
+
+/* Class = "UILabel"; accessibilityIdentifier = "userNameDetail"; ObjectID = "UHQ-JJ-FD3"; */
+"UHQ-JJ-FD3.accessibilityIdentifier" = "userNameDetail";
+
+/* Class = "UILabel"; text = "You"; ObjectID = "UHQ-JJ-FD3"; */
+"UHQ-JJ-FD3.text" = "You";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "WUT-YH-til"; */
+"WUT-YH-til.text" = "Label";
+
+/* Class = "UILabel"; accessibilityIdentifier = "userPointsDetail"; ObjectID = "WvU-w7-nfz"; */
+"WvU-w7-nfz.accessibilityIdentifier" = "userPointsDetail";
+
+/* Class = "UILabel"; text = "3485 PTS"; ObjectID = "WvU-w7-nfz"; */
+"WvU-w7-nfz.text" = "3485 PTS";
+
+/* Class = "UIButton"; normalTitle = "Badges"; ObjectID = "hYM-U7-E7n"; */
+"hYM-U7-E7n.normalTitle" = "Badges";
+
+/* Class = "UIImageView"; accessibilityIdentifier = "checkmark"; ObjectID = "iyx-sF-57s"; */
+"iyx-sF-57s.accessibilityIdentifier" = "checkmark";
+
+/* Class = "UILabel"; accessibilityIdentifier = "username"; ObjectID = "ju8-Gl-Vhm"; */
+"ju8-Gl-Vhm.accessibilityIdentifier" = "username";
+
+/* Class = "UILabel"; text = "Ben Price"; ObjectID = "ju8-Gl-Vhm"; */
+"ju8-Gl-Vhm.text" = "Ben Price";
+
+/* Class = "UIImageView"; accessibilityIdentifier = "badge"; ObjectID = "mKA-i8-bf4"; */
+"mKA-i8-bf4.accessibilityIdentifier" = "badge";
+
+/* Class = "UIImageView"; accessibilityIdentifier = "badgeIcon"; ObjectID = "nZ1-pM-BhE"; */
+"nZ1-pM-BhE.accessibilityIdentifier" = "badgeIcon";
+
+/* Class = "UILabel"; accessibilityIdentifier = "userPoints"; ObjectID = "t1p-bP-0cF"; */
+"t1p-bP-0cF.accessibilityIdentifier" = "userPoints";
+
+/* Class = "UILabel"; text = "1000"; ObjectID = "t1p-bP-0cF"; */
+"t1p-bP-0cF.text" = "1000";
+
+/* Class = "UILabel"; text = "JK"; ObjectID = "yLj-Mf-DP3"; */
+"yLj-Mf-DP3.text" = "JK";

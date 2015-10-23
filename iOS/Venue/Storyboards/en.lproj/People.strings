@@ -1,0 +1,42 @@
+
+/* Class = "UILabel"; text = "Jake Adams"; ObjectID = "2He-t8-fsX"; */
+"2He-t8-fsX.text" = "Jake Adams";
+
+/* Class = "UINavigationItem"; title = "Your Group Contacts"; ObjectID = "8s3-BL-ryR"; */
+"8s3-BL-ryR.title" = "Your Group Contacts";
+
+/* Class = "UIImageView"; accessibilityIdentifier = "checkmark"; ObjectID = "KUt-nN-KrQ"; */
+"KUt-nN-KrQ.accessibilityIdentifier" = "checkmark";
+
+/* Class = "UIButton"; normalTitle = "512 867 5309"; ObjectID = "M15-NX-r1q"; */
+"M15-NX-r1q.normalTitle" = "512 867 5309";
+
+/* Class = "UITextField"; placeholder = "Search"; ObjectID = "Qgy-G1-QYN"; */
+"Qgy-G1-QYN.placeholder" = "Search";
+
+/* Class = "UILabel"; text = "mobile"; ObjectID = "XTd-qF-BLu"; */
+"XTd-qF-BLu.text" = "mobile";
+
+/* Class = "UIButton"; normalTitle = "Send a Message"; ObjectID = "eCn-LI-9dy"; */
+"eCn-LI-9dy.normalTitle" = "Send a Message";
+
+/* Class = "UILabel"; text = "PN"; ObjectID = "emb-Ye-1Q3"; */
+"emb-Ye-1Q3.text" = "PN";
+
+/* Class = "UILabel"; accessibilityIdentifier = "userDetailName"; ObjectID = "fde-Nx-caT"; */
+"fde-Nx-caT.accessibilityIdentifier" = "userDetailName";
+
+/* Class = "UILabel"; text = "Person's Name"; ObjectID = "fde-Nx-caT"; */
+"fde-Nx-caT.text" = "Person's Name";
+
+/* Class = "UITableViewCell"; accessibilityIdentifier = "userItem"; ObjectID = "gQh-B3-TME"; */
+"gQh-B3-TME.accessibilityIdentifier" = "userItem";
+
+/* Class = "UINavigationItem"; title = "Person Details"; ObjectID = "ijD-bz-tkG"; */
+"ijD-bz-tkG.title" = "Person Details";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "jFa-rS-TC2"; */
+"jFa-rS-TC2.title" = " ";
+
+/* Class = "UILabel"; text = "JA"; ObjectID = "nJH-Ap-KgC"; */
+"nJH-Ap-KgC.text" = "JA";

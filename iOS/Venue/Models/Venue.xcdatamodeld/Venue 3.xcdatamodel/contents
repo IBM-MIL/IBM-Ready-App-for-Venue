@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="8195" systemVersion="14F27" minimumToolsVersion="Xcode 7.0">
+    <entity name="Achievement" syncable="YES">
+        <attribute name="details" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="point_value" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="progress_total" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="thumbnail_url" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="achieved_by" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="UserAchievement" inverseName="achievement" inverseEntity="UserAchievement" syncable="YES"/>
+    </entity>
+    <entity name="Detail" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="image_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="message" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="pois" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="POI" inverseName="details" inverseEntity="POI" syncable="YES"/>
+    </entity>
+    <entity name="Group" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="members" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="User" inverseName="group" inverseEntity="User" syncable="YES"/>
+    </entity>
+    <entity name="Invitation" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="timestamp_sent" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="timestamp_to_meet" optional="YES" attributeType="Date" syncable="YES"/>
+        <relationship name="location" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="POI" inverseName="destination" inverseEntity="POI" syncable="YES"/>
+        <relationship name="recipients" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="User" inverseName="invitation_recieved" inverseEntity="User" syncable="YES"/>
+        <relationship name="sender" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="User" inverseName="invitation_sent" inverseEntity="User" syncable="YES"/>
+    </entity>
+    <entity name="Notification" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="message" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="timestamp" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="unread" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <relationship name="user" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="User" inverseName="notifications_recieved" inverseEntity="User" syncable="YES"/>
+    </entity>
+    <entity name="POI" syncable="YES">
+        <attribute name="coordinate_x" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="coordinate_y" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="description_detail" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="height_requirement" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="picture_url" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="subtitle" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="thumbnail_url" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="wait_time" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <relationship name="destination" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Invitation" inverseName="location" inverseEntity="Invitation" syncable="YES"/>
+        <relationship name="details" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Detail" inverseName="pois" inverseEntity="Detail" syncable="YES"/>
+        <relationship name="plan_location" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="User" inverseName="plans" inverseEntity="User" syncable="YES"/>
+        <relationship name="types" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Type" inverseName="pois" inverseEntity="Type" syncable="YES"/>
+    </entity>
+    <entity name="Type" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="image_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="pois" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="POI" inverseName="types" inverseEntity="POI" syncable="YES"/>
+    </entity>
+    <entity name="User" syncable="YES">
+        <attribute name="current_location_x" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="current_location_y" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="device_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="first_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="last_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phone_number" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="picture_url" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="group" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Group" inverseName="members" inverseEntity="Group" syncable="YES"/>
+        <relationship name="invitation_recieved" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Invitation" inverseName="recipients" inverseEntity="Invitation" syncable="YES"/>
+        <relationship name="invitation_sent" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Invitation" inverseName="sender" inverseEntity="Invitation" syncable="YES"/>
+        <relationship name="notifications_recieved" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Notification" inverseName="user" inverseEntity="Notification" syncable="YES"/>
+        <relationship name="plans" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="POI" inverseName="plan_location" inverseEntity="POI" syncable="YES"/>
+        <relationship name="user_achievements" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="UserAchievement" inverseName="user" inverseEntity="UserAchievement" syncable="YES"/>
+    </entity>
+    <entity name="UserAchievement" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="progress_completed" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="timestamp" optional="YES" attributeType="Date" syncable="YES"/>
+        <relationship name="achievement" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Achievement" inverseName="achieved_by" inverseEntity="Achievement" syncable="YES"/>
+        <relationship name="user" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="User" inverseName="user_achievements" inverseEntity="User" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Achievement" positionX="-56" positionY="500" width="128" height="148"/>
+        <element name="Detail" positionX="-270" positionY="228" width="128" height="103"/>
+        <element name="Group" positionX="547" positionY="288" width="128" height="90"/>
+        <element name="Invitation" positionX="97" positionY="261" width="128" height="135"/>
+        <element name="Notification" positionX="547" positionY="396" width="128" height="148"/>
+        <element name="POI" positionX="-74" positionY="197" width="128" height="253"/>
+        <element name="Type" positionX="-270" positionY="354" width="128" height="103"/>
+        <element name="User" positionX="342" positionY="180" width="128" height="270"/>
+        <element name="UserAchievement" positionX="153" positionY="494" width="128" height="118"/>
+    </elements>
+</model>

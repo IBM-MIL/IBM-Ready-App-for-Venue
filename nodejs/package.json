@@ -1,0 +1,40 @@
+{
+  "name": "ReadyAppVenue",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "body-parser": "1.14.1",
+    "cfenv": "1.0.3",
+    "express": "4.13.3",
+    "lodash": "3.10.1",
+    "morgan": "1.6.1",
+    "path": "0.12.7",
+    "request": "^2.65.0",
+    "request-promise": "0.4.3",
+    "rethinkdb": "2.1.0",
+    "tunnel-ssh": "1.1.0",
+    "when": "3.7.3"
+  },
+  "repository": {},
+  "devDependencies": {
+    "chai": "3.3.0",
+    "grunt": "0.4.5",
+    "grunt-contrib-jshint": "0.11.3",
+    "grunt-contrib-watch": "0.6.1",
+    "grunt-env": "0.4.4",
+    "grunt-express-server": "0.5.1",
+    "grunt-jsdoc": "1.0.0",
+    "grunt-mocha-test": "0.12.7",
+    "jit-grunt": "0.9.1",
+    "jshint-stylish": "2.0.1",
+    "jshint-junit-reporter": "0.2.2",
+    "mocha": "2.3.3",
+    "mockery": "1.4.0",
+    "sinon": "1.17.1",
+    "sinon-as-promised": "4.0.0",
+    "supertest": "1.1.0",
+    "time-grunt": "1.2.1"
+  }
+}

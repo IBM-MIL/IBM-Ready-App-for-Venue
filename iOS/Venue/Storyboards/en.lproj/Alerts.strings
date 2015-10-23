@@ -1,0 +1,51 @@
+
+/* Class = "UILabel"; text = "NOTIFICATIONS"; ObjectID = "0ia-j5-8wR"; */
+"0ia-j5-8wR.text" = "NOTIFICATIONS";
+
+/* Class = "UIButton"; normalTitle = "All Notifications"; ObjectID = "2fP-fj-7df"; */
+"2fP-fj-7df.normalTitle" = "All Notifications";
+
+/* Class = "UILabel"; text = "There is a 75% chance of thunderstorms"; ObjectID = "85t-cg-mpH"; */
+"85t-cg-mpH.text" = "There is a 75% chance of thunderstorms";
+
+/* Class = "UILabel"; accessibilityIdentifier = "alertTitle"; ObjectID = "Ct4-uw-d64"; */
+"Ct4-uw-d64.accessibilityIdentifier" = "alertTitle";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "Ct4-uw-d64"; */
+"Ct4-uw-d64.text" = "Title";
+
+/* Class = "UIButton"; normalTitle = "Accept Invitation"; ObjectID = "LBG-EP-e1n"; */
+"LBG-EP-e1n.normalTitle" = "Accept Invitation";
+
+/* Class = "UILabel"; accessibilityIdentifier = "notifItem"; ObjectID = "OEp-e3-Tin"; */
+"OEp-e3-Tin.accessibilityIdentifier" = "notifItem";
+
+/* Class = "UILabel"; text = "The Twizzler is 25 tons of pure thrill! Featuring 3 corkscrew turns and the steepest drop in the..."; ObjectID = "OEp-e3-Tin"; */
+"OEp-e3-Tin.text" = "The Twizzler is 25 tons of pure thrill! Featuring 3 corkscrew turns and the steepest drop in the...";
+
+/* Class = "UILabel"; text = "3:00 PM"; ObjectID = "PWJ-pX-CjO"; */
+"PWJ-pX-CjO.text" = "3:00 PM";
+
+/* Class = "UILabel"; accessibilityIdentifier = "alertDetailTitle"; ObjectID = "TpY-X5-dYv"; */
+"TpY-X5-dYv.accessibilityIdentifier" = "alertDetailTitle";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "TpY-X5-dYv"; */
+"TpY-X5-dYv.text" = "Title";
+
+/* Class = "UILabel"; accessibilityIdentifier = "attractionName"; ObjectID = "gaG-7N-wRD"; */
+"gaG-7N-wRD.accessibilityIdentifier" = "attractionName";
+
+/* Class = "UILabel"; text = "Tejas Twister"; ObjectID = "gaG-7N-wRD"; */
+"gaG-7N-wRD.text" = "Tejas Twister";
+
+/* Class = "UILabel"; text = "10:28am"; ObjectID = "hMR-wL-D9W"; */
+"hMR-wL-D9W.text" = "10:28am";
+
+/* Class = "UILabel"; text = "10:28am"; ObjectID = "iQI-Pd-sne"; */
+"iQI-Pd-sne.text" = "10:28am";
+
+/* Class = "UITableViewCell"; accessibilityIdentifier = "notificationItem"; ObjectID = "sJD-VQ-xhJ"; */
+"sJD-VQ-xhJ.accessibilityIdentifier" = "notificationItem";
+
+/* Class = "UIImageView"; accessibilityIdentifier = "unreadMark"; ObjectID = "uey-VD-pnu"; */
+"uey-VD-pnu.accessibilityIdentifier" = "unreadMark";

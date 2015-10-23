@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PIbaseURL</key>
+	<string>https://presenceinsights.ng.bluemix.net</string>
+	<key>username</key>
+	<string>YOUR_PI_USERNAME_HERE</string>
+	<key>password</key>
+	<string>YOUR_PI_PASSWORD_HERE</string>
+	<key>tenant</key>
+	<string>YOUR_PI_TENANT_HERE</string>
+	<key>org</key>
+	<string>YOUR_PI_ORG_HERE</string>
+	<key>site</key>
+	<string></string>
+	<key>floor</key>
+	<string></string>
+</dict>
+</plist>

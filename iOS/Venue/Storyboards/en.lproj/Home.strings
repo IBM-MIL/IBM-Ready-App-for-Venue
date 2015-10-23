@@ -1,0 +1,45 @@
+
+/* Class = "UILabel"; text = "WELCOME TO"; ObjectID = "01g-Bd-Wyu"; */
+"01g-Bd-Wyu.text" = "WELCOME TO";
+
+/* Class = "UIButton"; normalTitle = "My List"; ObjectID = "2YF-oQ-Vfy"; */
+"2YF-oQ-Vfy.normalTitle" = "My List";
+
+/* Class = "UILabel"; text = "Favorited"; ObjectID = "ABX-eN-Gxm"; */
+"ABX-eN-Gxm.text" = "Favorited";
+
+/* Class = "UITabBarItem"; title = "Home"; ObjectID = "AMw-T5-Kdn"; */
+"AMw-T5-Kdn.title" = "Home";
+
+/* Class = "UILabel"; text = "Demo Dashboard"; ObjectID = "D0u-SV-Xbc"; */
+"D0u-SV-Xbc.text" = "Demo Dashboard";
+
+/* Class = "UILabel"; accessibilityIdentifier = "attractionName"; ObjectID = "ES9-hl-m20"; */
+"ES9-hl-m20.accessibilityIdentifier" = "attractionName";
+
+/* Class = "UILabel"; text = "Tejas Twister"; ObjectID = "ES9-hl-m20"; */
+"ES9-hl-m20.text" = "Tejas Twister";
+
+/* Class = "UILabel"; text = "45 min wait | 15 min away"; ObjectID = "J6R-5E-S6B"; */
+"J6R-5E-S6B.text" = "45 min wait | 15 min away";
+
+/* Class = "UILabel"; text = "Context-Driven Offer"; ObjectID = "Koc-qa-pwj"; */
+"Koc-qa-pwj.text" = "Context-Driven Offer";
+
+/* Class = "UIButton"; normalTitle = "Near Me"; ObjectID = "OfC-Ka-eMk"; */
+"OfC-Ka-eMk.normalTitle" = "Near Me";
+
+/* Class = "UIButton"; normalTitle = "Close"; ObjectID = "eYZ-pZ-sKf"; */
+"eYZ-pZ-sKf.normalTitle" = "Close";
+
+/* Class = "UILabel"; text = "Completed"; ObjectID = "fhP-2j-006"; */
+"fhP-2j-006.text" = "Completed";
+
+/* Class = "UILabel"; text = "Brickland Pointy Peak"; ObjectID = "jBF-U7-DI5"; */
+"jBF-U7-DI5.text" = "Brickland Pointy Peak";
+
+/* Class = "UIButton"; normalTitle = "Review Tutorial"; ObjectID = "k90-gq-quS"; */
+"k90-gq-quS.normalTitle" = "Review Tutorial";
+
+/* Class = "UILabel"; text = "Planned"; ObjectID = "twD-yI-LKU"; */
+"twD-yI-LKU.text" = "Planned";

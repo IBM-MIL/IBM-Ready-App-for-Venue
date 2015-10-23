@@ -1,0 +1,4 @@
+{
+  "node": true, 
+  "globals": { "WL": true, "it": true, "describe": true }
+}

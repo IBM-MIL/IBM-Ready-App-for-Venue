@@ -1,0 +1,63 @@
+
+/* Class = "UIViewController"; title = "onboardingViewController"; ObjectID = "2cG-mF-hGf"; */
+"2cG-mF-hGf.title" = "onboardingViewController";
+
+/* Class = "UILabel"; text = "Title that is really long. Like super duper extreme long"; ObjectID = "5Vb-K0-MhU"; */
+"5Vb-K0-MhU.text" = "Title that is really long. Like super duper extreme long";
+
+/* Class = "UILabel"; text = "Map Filters"; ObjectID = "IeS-ii-2tU"; */
+"IeS-ii-2tU.text" = "Map Filters";
+
+/* Class = "UIImageView"; accessibilityIdentifier = "filterImage"; ObjectID = "K1N-c6-8y1"; */
+"K1N-c6-8y1.accessibilityIdentifier" = "filterImage";
+
+/* Class = "UILabel"; text = "45 min wait"; ObjectID = "KJ5-aM-LRp"; */
+"KJ5-aM-LRp.text" = "45 min wait";
+
+/* Class = "UITabBarItem"; title = "People"; ObjectID = "OXs-Z5-1QG"; */
+"OXs-Z5-1QG.title" = "People";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "VQw-uQ-S0v"; */
+"VQw-uQ-S0v.normalTitle" = "Cancel";
+
+/* Class = "UILabel"; text = "JK"; ObjectID = "Vy5-U6-22L"; */
+"Vy5-U6-22L.text" = "JK";
+
+/* Class = "UITabBarItem"; title = "Map"; ObjectID = "W5V-EI-hQi"; */
+"W5V-EI-hQi.title" = "Map";
+
+/* Class = "UIButton"; normalTitle = "Apply"; ObjectID = "cSo-jw-GhM"; */
+"cSo-jw-GhM.normalTitle" = "Apply";
+
+/* Class = "UITabBarItem"; title = "Challenges"; ObjectID = "gxC-Zm-5vA"; */
+"gxC-Zm-5vA.title" = "Challenges";
+
+/* Class = "UITabBarItem"; title = "Home"; ObjectID = "kvs-wU-Gk7"; */
+"kvs-wU-Gk7.title" = "Home";
+
+/* Class = "UIButton"; normalTitle = "Skip Tutorial"; ObjectID = "mUh-mD-wfb"; */
+"mUh-mD-wfb.normalTitle" = "Skip Tutorial";
+
+/* Class = "UIImageView"; accessibilityIdentifier = "POIIcon"; ObjectID = "nfb-2s-76J"; */
+"nfb-2s-76J.accessibilityIdentifier" = "POIIcon";
+
+/* Class = "UILabel"; accessibilityIdentifier = "POIName"; ObjectID = "qHe-xA-AqW"; */
+"qHe-xA-AqW.accessibilityIdentifier" = "POIName";
+
+/* Class = "UILabel"; text = "Point of Interest Name"; ObjectID = "qHe-xA-AqW"; */
+"qHe-xA-AqW.text" = "Point of Interest Name";
+
+/* Class = "UITabBarItem"; title = "Home"; ObjectID = "s0M-hK-qU8"; */
+"s0M-hK-qU8.title" = "Home";
+
+/* Class = "UITabBarItem"; title = "Inbox"; ObjectID = "s7g-cN-jD2"; */
+"s7g-cN-jD2.title" = "Inbox";
+
+/* Class = "UILabel"; accessibilityIdentifier = "filterLabel"; ObjectID = "wA5-4S-w68"; */
+"wA5-4S-w68.accessibilityIdentifier" = "filterLabel";
+
+/* Class = "UILabel"; text = "Entertainment"; ObjectID = "wA5-4S-w68"; */
+"wA5-4S-w68.text" = "Entertainment";
+
+/* Class = "UIButton"; normalTitle = "Get Started"; ObjectID = "zG4-an-qsT"; */
+"zG4-an-qsT.normalTitle" = "Get Started";

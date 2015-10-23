@@ -1,0 +1,16 @@
+# local environment configurations
+config/localEnv.js
+config/testEnv.js
+
+# npm dependencies
+node_modules
+
+# node dev log
+npm-debug.log
+
+# static analysis and test output
+jshintOutput.xml
+testResults.xml
+
+# generated docs
+docs/
