@@ -1,8 +1,14 @@
 # Ready App Venue
 
+##Overview
+
 IBM Ready App for Venue demonstrates a personalized and social experience within the fictional theme park - Brickland. At Brickland, visitors use their mobile app to discover what is near them, find their way to their favorite attractions, keep in touch with their group, and achieve badges based on their activity.
 
-## Project Structure 
+##Getting Started
+
+##Documentation
+
+##Project Structure 
 
 * `/iOS`        directory for the iOS client.
 * `/companion-iPad` directory for the companion application.
@@ -12,3 +18,5 @@ IBM Ready App for Venue demonstrates a personalized and social experience within
   2. Sends an internal request to the NodeJS server.
   3. Receives the response from NodeJS might apply some transformation and then sends it a response to iOS.
 * `/scripts`    directory for useful scripts for the project like building and running the server components in development computer.
+
+##License
