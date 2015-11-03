@@ -1,3 +1,4 @@
+![](README_assets/banner.png)
 # Ready App Venue
 
 ##Overview
@@ -8,7 +9,7 @@ IBM Ready App for Venue demonstrates a personalized and social experience within
 
 ##Documentation
 
-##Project Structure 
+##Project Structure
 
 * `/iOS`        directory for the iOS client.
 * `/companion-iPad` directory for the companion application.
