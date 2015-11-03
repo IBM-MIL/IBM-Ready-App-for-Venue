@@ -1,5 +1,4 @@
 # local environment configurations
-config/localEnv.js
 config/testEnv.js
 
 # npm dependencies
