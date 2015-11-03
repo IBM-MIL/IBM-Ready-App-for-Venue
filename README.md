@@ -22,4 +22,4 @@ IBM Ready App for Venue demonstrates a personalized and social experience within
 
 ##License
 
-IBM Ready App for Venue is available under the IBM Ready Apps License Agreement. See the [License file](https://github.com/IBM-MIL/IBM-Ready-App-for-Venue/blob/develop/LICENSE) for more details.
+IBM Ready App for Venue is available under the IBM Ready Apps License Agreement. See the [License file](https://github.com/IBM-MIL/IBM-Ready-App-for-Venue/blob/master/License.txt) for more details.
