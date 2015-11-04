@@ -1,5 +1,5 @@
 ![](README_assets/banner.png)
-# Ready App Venue
+# Ready App for Venue
 
 ## Overview
 
