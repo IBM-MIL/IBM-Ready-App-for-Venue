@@ -9,7 +9,13 @@ var utils = {};
 utils.getGamificationConfig = function() {
   var gamificationCreds;
 
-  var services = JSON.parse(process.env.VCAP_SERVICES);
+  var services;
+  if(process.env.VCAP_SERVICES) {
+    services = JSON.parse(process.env.VCAP_SERVICES); 
+  } else {
+    services = require('../config/vcaps');
+  }
+
   if(!services.Gamification || !services.Gamification[0].credentials) {
     throw new Error('no gamifcation service credentials found');
   } else {
