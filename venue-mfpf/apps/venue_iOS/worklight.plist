@@ -2,16 +2,16 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>protocol</key>
+	<key>protocol</key> 
 	<string>http</string>
 	<key>host</key>
-	<string>localhost</string>
+	<string>9.24.0.156</string>
 	<key>port</key>
 	<string>10080</string>
 	<key>wlServerContext</key>
 	<string>/venue-mfpf/</string>
 	<key>application id</key>
-	<string>venue_mfpf</string>
+	<string>venue_iOS</string>
 	<key>application version</key>
 	<string>1.0</string>
 	<key>environment</key>

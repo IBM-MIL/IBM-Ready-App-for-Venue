@@ -9,3 +9,7 @@ iOS/test-reports/TEST-VenueAlertTests.xml
 iOS/test-reports/TEST-VenueChallengesUITests.xml
 iOS/test-reports/TEST-VenueMapUITests.xml
 xcuserdata
+
+# Compiled MFP files
+bin/
+classes/

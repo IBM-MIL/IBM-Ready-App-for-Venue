@@ -1,15 +1,17 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!--
     Licensed Materials - Property of IBM
     5725-I43 (C) Copyright IBM Corp. 2011, 2013. All Rights Reserved.
     US Government Users Restricted Rights - Use, duplication or
     disclosure restricted by GSA ADP Schedule Contract with IBM Corp.
---><nativeIOSApp xmlns="http://www.worklight.com/native-ios-descriptor" bundleId="com.iOS" id="iOS" platformVersion="7.1.0.00.20150807-0630" version="1.0">
+-->
+<nativeIOSApp id="venue_iOS" platformVersion="7.1.0.00.20150807-0630" bundleId="com.venueiOS" 
+	version="1.0" xmlns="http://www.worklight.com/native-ios-descriptor">
 	
-	<displayName>iOS</displayName>
-	<description>iOS</description>
+	<displayName>venue_iOS</displayName>
+	<description>venue_iOS</description>
 	<accessTokenExpiration>3600</accessTokenExpiration>
-	<userIdentityRealms/>
+	<userIdentityRealms></userIdentityRealms>
 	<!-- 
         Define the target category for generating ADRESSABLE DEVICE license reports 
         Possible values are 'UNDEFINED', 'B2E', 'B2C'
