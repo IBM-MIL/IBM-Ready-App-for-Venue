@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/com.ibm.ws.st.core.runtimeClasspathProvider/com.ibm.worklight"/>
+	<classpathentry kind="src" path="server/java"/>
 	<classpathentry kind="con" path="com.worklight.studio.plugin.classpath.SERVER_CONTAINER"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="src" path="server/java"/>
-	<classpathentry kind="src" path="tests/mobilefirst"/>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/com.ibm.ws.st.core.runtimeClasspathProvider/com.ibm.worklight"/>
+	<classpathentry kind="src" output="adapters/demoAdapter/bin" path="adapters/demoAdapter/src"/>
 	<classpathentry kind="src" output="adapters/gamificationAdapter/bin" path="adapters/gamificationAdapter/src"/>
+	<classpathentry kind="src" output="adapters/poisAdapter/bin" path="adapters/poisAdapter/src"/>
+	<classpathentry kind="src" output="adapters/usersAdapter/bin" path="adapters/usersAdapter/src"/>
 	<classpathentry kind="output" path="bin/classes"/>
 </classpath>
