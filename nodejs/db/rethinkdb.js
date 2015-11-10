@@ -4,9 +4,11 @@
  */
 'use strict';
 
-var _       = require('lodash');
-var r       = require('rethinkdb');
-var when    = require('when');
+var _     = require('lodash');
+var r     = require('rethinkdb');
+var when  = require('when');
+var fs    = require('fs');
+var path  = require('path');
 
 var db = {};
 var tables = [];
@@ -42,13 +44,21 @@ db.setup = function(host, port) {
  *
  * @return promise of a rethinkdb connection
  */
-db.connect = function(host, port) {
+db.connect = function() {
+  var deferred = when.defer();
+
+  // load cacert file
+  var caCert = fs.readFileSync(path.join(__dirname, '../', 'cacert'));
+  
   return r.connect({
-    host:     host,
-    port:     port,
-    db:       process.env.RETHINKDB_DB_NAME,
-    authKey:  process.env.RETHINKDB_AUTH_KEY
-  });
+      host:     process.env.RETHINKDB_HOST,
+      port:     process.env.RETHINKDB_PORT,
+      authKey:  process.env.RETHINKDB_AUTH_KEY,
+      db:       process.env.RETHINKDB_DB_NAME,
+      ssl: {
+        ca: caCert
+      }
+    });
 };
 
 module.exports = db;

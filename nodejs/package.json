@@ -13,7 +13,7 @@
     "path": "0.12.7",
     "request": "^2.65.0",
     "request-promise": "0.4.3",
-    "rethinkdb": "2.1.0",
+    "rethinkdb": "2.1.1",
     "tunnel-ssh": "1.1.0",
     "when": "3.7.3"
   },

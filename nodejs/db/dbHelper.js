@@ -5,7 +5,7 @@
 'use strict';
 
 var _           = require('lodash');
-var ssh         = require('./sshTunnel');
+// var ssh         = require('./sshTunnel');
 var rethinkdb   = require('./rethinkdb');
 var r           = require('rethinkdb');
 var when        = require('when');
@@ -149,14 +149,14 @@ module.exports = helper;
 
 
 function connectToDb(callback) {
-  ssh.withValidTunnel(function(host, port){
-    rethinkdb.connect(host, port)
+  // ssh.withValidTunnel(function(host, port){
+    rethinkdb.connect()
       .then(function(conn) {
         callback(conn);
       }, function(err) {
         throw new Error('Error Conencting to Rethinkdb: ' + err);
       });
-  });
+  // });
 }
 
 function withValidTable(tableName, conn, callback) {

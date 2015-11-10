@@ -1,5 +1,5 @@
-/*
- *  Licensed Materials - Property of IBM
+
+/*  Licensed Materials - Property of IBM
  *  © Copyright IBM Corporation 2015. All Rights Reserved.
  */
 'use strict';
@@ -7,7 +7,7 @@
 var cfenv   = require('cfenv');
 var express = require('express');
 var http    = require('http');
-var ssh     = require('./db/sshTunnel');
+// var ssh     = require('./db/sshTunnel');
 var rethink = require('./db/rethinkdb');
 
 var app = express();
@@ -18,14 +18,11 @@ var appEnv = cfenv.getAppEnv();
  * ---------------------------------- */
 // setup the express configuration
 require('./config/express')(app);
-// setup routes
+// setup routesç
 require('./routes')(app);
 
-// setup rethinkdb connection
-ssh.withValidTunnel(function(host, port){
-  rethink.setup(host, port)
-    .then(startServer);
-});
+rethink.setup()
+  .then(startServer);
 
 /* ----------------------------------
  * End of start up script.
@@ -44,8 +41,7 @@ function startServer() {
     if(process.env.NODE_ENV !== 'test') {
       // take the values of url and port from env variables or from the cf environment
       var url = (process.env.DOMAIN || appEnv.url);
-      var port = (process.env.PORT || appEnv.port);
-      console.log("server starting on " + url + ":" + port);
+      console.log("server starting on " + url);
     }
   });
 }
