@@ -174,3 +174,9 @@ xcuserdata
 
 
 Carthage/Build/Mac
+
+Venue.xcodeproj/xcuserdata/*
+Venue/ExternalLibs/Q4M.framework
+Venue/ExternalLibs/Users/
+iOS/Venue/Frameworks/Q4M.framework/*
+

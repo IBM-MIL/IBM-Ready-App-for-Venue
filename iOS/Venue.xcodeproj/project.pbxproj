@@ -61,8 +61,6 @@
 		2E2156F71BBB2DC500D64097 /* VenueWaitLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2156F61BBB2DC500D64097 /* VenueWaitLabel.swift */; };
 		2E24CE721B8635AB0051B338 /* VenueChallengesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E24CE711B8635AB0051B338 /* VenueChallengesUITests.swift */; };
 		2E29C62B1B8620230051FBBF /* ManagerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E29C6291B8620230051FBBF /* ManagerHelper.swift */; };
-		2E31C6601B862D690078F5D6 /* Q4M.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E31C65F1B862D690078F5D6 /* Q4M.framework */; };
-		2E31C6611B862D690078F5D6 /* Q4M.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E31C65F1B862D690078F5D6 /* Q4M.framework */; };
 		2E31C6631B862D8E0078F5D6 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E31C6621B862D8E0078F5D6 /* CoreTelephony.framework */; };
 		2E31C6651B86304E0078F5D6 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E31C6641B86304E0078F5D6 /* AssetsLibrary.framework */; };
 		2E31C6671B86305D0078F5D6 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E31C6661B86305C0078F5D6 /* AudioToolbox.framework */; };
@@ -135,6 +133,8 @@
 		A20C35A71BA8B3B300073F8D /* PlaceInviteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20C35A61BA8B3B300073F8D /* PlaceInviteViewModel.swift */; };
 		A20DB4F51BC5950000CAFA78 /* AdDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20DB4F41BC5950000CAFA78 /* AdDataManager.swift */; };
 		A221EAAD1BC30D94003F9F0C /* FavoritedPOI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A221EAAC1BC30D94003F9F0C /* FavoritedPOI.swift */; };
+		A22412821BFCF48300E8C186 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A22412811BFCF48300E8C186 /* MediaPlayer.framework */; };
+		A22412921BFCFA7400E8C186 /* Q4M.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A22412911BFCFA7400E8C186 /* Q4M.framework */; };
 		A23148D61BB5E02700C3A9F2 /* RBStoryboardEmbedSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23148D51BB5E02700C3A9F2 /* RBStoryboardEmbedSegue.swift */; };
 		A231F0701BB9BB0800630F9A /* ChallengeTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = A231F06F1BB9BB0800630F9A /* ChallengeTask.swift */; };
 		A231F0711BB9C08700630F9A /* ChallengeTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = A231F06F1BB9BB0800630F9A /* ChallengeTask.swift */; };
@@ -236,6 +236,13 @@
 			remoteGlobalIDString = 1B5533B91A5EF9A1006DAECE;
 			remoteInfo = Venue;
 		};
+		A22412871BFCF7C100E8C186 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B5533B21A5EF9A1006DAECE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A22412831BFCF74A00E8C186;
+			remoteInfo = "Venue-Unpack-MQA";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -330,7 +337,6 @@
 		2E24CE731B8635AB0051B338 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E29C6291B8620230051FBBF /* ManagerHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManagerHelper.swift; sourceTree = "<group>"; };
 		2E29C62A1B8620230051FBBF /* UserDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDataManager.swift; sourceTree = "<group>"; };
-		2E31C65F1B862D690078F5D6 /* Q4M.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Q4M.framework; sourceTree = "<group>"; };
 		2E31C6621B862D8E0078F5D6 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		2E31C6641B86304E0078F5D6 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		2E31C6661B86305C0078F5D6 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
@@ -397,6 +403,8 @@
 		A20DB4F41BC5950000CAFA78 /* AdDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdDataManager.swift; sourceTree = "<group>"; };
 		A221EAAB1BC30665003F9F0C /* Venue 11.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Venue 11.xcdatamodel"; sourceTree = "<group>"; };
 		A221EAAC1BC30D94003F9F0C /* FavoritedPOI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritedPOI.swift; sourceTree = "<group>"; };
+		A22412811BFCF48300E8C186 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		A22412911BFCFA7400E8C186 /* Q4M.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Q4M.framework; path = Venue/ExternalLibs/q4m/Q4M.framework; sourceTree = SOURCE_ROOT; };
 		A23148D51BB5E02700C3A9F2 /* RBStoryboardEmbedSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RBStoryboardEmbedSegue.swift; sourceTree = "<group>"; };
 		A231F06E1BB99DF300630F9A /* Venue 5.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Venue 5.xcdatamodel"; sourceTree = "<group>"; };
 		A231F06F1BB9BB0800630F9A /* ChallengeTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChallengeTask.swift; sourceTree = "<group>"; };
@@ -482,6 +490,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A22412821BFCF48300E8C186 /* MediaPlayer.framework in Frameworks */,
 				2EF45D631B852B0800BFCF51 /* MobileCoreServices.framework in Frameworks */,
 				CD2BF4211BC4428C0063EB01 /* CoreSpotlight.framework in Frameworks */,
 				2E31C6691B8630660078F5D6 /* QuartzCore.framework in Frameworks */,
@@ -493,6 +502,7 @@
 				85AD36A41BFBD21D00E57E38 /* PresenceInsightsSDK.framework in Frameworks */,
 				2E31C66B1B86306E0078F5D6 /* CoreText.framework in Frameworks */,
 				055CBFA71B8CFF8600A14928 /* CoreBluetooth.framework in Frameworks */,
+				A22412921BFCFA7400E8C186 /* Q4M.framework in Frameworks */,
 				059968E01B8BB5840010186A /* libsqlite3.dylib in Frameworks */,
 				059968F01B8BB7320010186A /* libGGLAnalytics.a in Frameworks */,
 				A2332DBD1B8E15E800D6E7CA /* IBMMobileFirstPlatformFoundation.framework in Frameworks */,
@@ -509,7 +519,6 @@
 				2EF45D621B852B0800BFCF51 /* CoreData.framework in Frameworks */,
 				2EF45D641B852B0800BFCF51 /* SystemConfiguration.framework in Frameworks */,
 				2EF45D471B85282200BFCF51 /* sqlcipher.framework in Frameworks */,
-				2E31C6601B862D690078F5D6 /* Q4M.framework in Frameworks */,
 				059968F21B8BB7320010186A /* libGGLCore.a in Frameworks */,
 				059968D91B8BB55A0010186A /* libGoogleAnalytics.a in Frameworks */,
 			);
@@ -529,7 +538,6 @@
 				2EF45D4E1B85292000BFCF51 /* SystemConfiguration.framework in Frameworks */,
 				059968F11B8BB7320010186A /* libGGLAnalytics.a in Frameworks */,
 				2EF45D481B85282200BFCF51 /* sqlcipher.framework in Frameworks */,
-				2E31C6611B862D690078F5D6 /* Q4M.framework in Frameworks */,
 				059968F31B8BB7320010186A /* libGGLCore.a in Frameworks */,
 				2EF45D461B85282200BFCF51 /* IBMMobileFirstPlatformFoundation.framework in Frameworks */,
 				059968DA1B8BB55A0010186A /* libGoogleAnalytics.a in Frameworks */,
@@ -706,6 +714,7 @@
 		1B5533B11A5EF9A1006DAECE = {
 			isa = PBXGroup;
 			children = (
+				A22412811BFCF48300E8C186 /* MediaPlayer.framework */,
 				1B5533BC1A5EF9A1006DAECE /* Venue */,
 				1B5533D21A5EF9A1006DAECE /* VenueTests */,
 				2E24CE701B8635AB0051B338 /* VenueUITests */,
@@ -841,6 +850,7 @@
 		1B5533E61A5F16CD006DAECE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A22412911BFCFA7400E8C186 /* Q4M.framework */,
 				85AD36A31BFBD21D00E57E38 /* PresenceInsightsSDK.framework */,
 				85D5829E1BEA7DFD00B021C7 /* ReactiveCocoa.framework */,
 				2E31C6641B86304E0078F5D6 /* AssetsLibrary.framework */,
@@ -860,7 +870,6 @@
 				CD45B77B1B96163300F59F95 /* libxml2.2.dylib */,
 				2EF45D571B852A5000BFCF51 /* libz.1.dylib */,
 				2EF45D4F1B8529BF00BFCF51 /* MobileCoreServices.framework */,
-				2E31C65F1B862D690078F5D6 /* Q4M.framework */,
 				2E31C6681B8630660078F5D6 /* QuartzCore.framework */,
 				2EF45D551B8529D500BFCF51 /* Security.framework */,
 				2EF45D4D1B85292000BFCF51 /* SystemConfiguration.framework */,
@@ -1150,6 +1159,23 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXLegacyTarget section */
+		A22412831BFCF74A00E8C186 /* Venue-Unpack-MQA */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = A22412841BFCF74A00E8C186 /* Build configuration list for PBXLegacyTarget "Venue-Unpack-MQA" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = "${SRCROOT}/Venue/ExternalLibs";
+			dependencies = (
+			);
+			name = "Venue-Unpack-MQA";
+			passBuildSettingsInEnvironment = 1;
+			productName = "Venue-Unpack-MQA";
+		};
+/* End PBXLegacyTarget section */
+
 /* Begin PBXNativeTarget section */
 		1B5533B91A5EF9A1006DAECE /* Venue */ = {
 			isa = PBXNativeTarget;
@@ -1163,6 +1189,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				A22412881BFCF7C100E8C186 /* PBXTargetDependency */,
 			);
 			name = Venue;
 			productName = Venue;
@@ -1227,6 +1254,9 @@
 						CreatedOnToolsVersion = 7.0;
 						TestTargetID = 1B5533B91A5EF9A1006DAECE;
 					};
+					A22412831BFCF74A00E8C186 = {
+						CreatedOnToolsVersion = 7.1;
+					};
 				};
 			};
 			buildConfigurationList = 1B5533B51A5EF9A1006DAECE /* Build configuration list for PBXProject "Venue" */;
@@ -1245,6 +1275,7 @@
 				1B5533B91A5EF9A1006DAECE /* Venue */,
 				1B5533CE1A5EF9A1006DAECE /* VenueTests */,
 				2E24CE6E1B8635AB0051B338 /* VenueUITests */,
+				A22412831BFCF74A00E8C186 /* Venue-Unpack-MQA */,
 			);
 		};
 /* End PBXProject section */
@@ -1474,6 +1505,11 @@
 			target = 1B5533B91A5EF9A1006DAECE /* Venue */;
 			targetProxy = 2E24CE741B8635AB0051B338 /* PBXContainerItemProxy */;
 		};
+		A22412881BFCF7C100E8C186 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A22412831BFCF74A00E8C186 /* Venue-Unpack-MQA */;
+			targetProxy = A22412871BFCF7C100E8C186 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
@@ -1637,6 +1673,7 @@
 					"$(PROJECT_DIR)/Venue/Frameworks",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Venue/ExternalLibs/q4m",
 				);
 				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
 				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
@@ -1676,6 +1713,7 @@
 					"$(PROJECT_DIR)/Venue/Frameworks",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Venue/ExternalLibs/q4m",
 				);
 				GCC_VERSION = "";
 				HEADER_SEARCH_PATHS = "$(SRCROOT)/WorklightAPI/include";
@@ -1789,6 +1827,32 @@
 			};
 			name = Release;
 		};
+		A22412851BFCF74A00E8C186 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUGGING_SYMBOLS = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A22412861BFCF74A00E8C186 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1824,6 +1888,15 @@
 			buildConfigurations = (
 				2E24CE771B8635AB0051B338 /* Debug */,
 				2E24CE781B8635AB0051B338 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A22412841BFCF74A00E8C186 /* Build configuration list for PBXLegacyTarget "Venue-Unpack-MQA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A22412851BFCF74A00E8C186 /* Debug */,
+				A22412861BFCF74A00E8C186 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
