@@ -4,19 +4,19 @@ Licensed Materials - Property of IBM
 */
 
 import UIKit
-import PresenceInsightsSDK
+//import PresenceInsightsSDK
 
 /// Class to handle the PresenceInsights setup and info requests
 class PresenceInsightsManager: NSObject {
     
-    private var presenceInsightsAdapter: PIAdapter!
+//    private var presenceInsightsAdapter: PIAdapter!
     private var username: String!
     private var password: String!
     private var tenant: String!
     private var org: String!
     //    private var site: String!
     //    private var floor: String!
-    private var device: PIDevice!
+//    private var device: PIDevice!
     
     class var sharedInstance: PresenceInsightsManager {
         struct Static {
@@ -43,8 +43,8 @@ class PresenceInsightsManager: NSObject {
             tenant = config.objectForKey("tenant") as! String
             org = config.objectForKey("org") as! String
             
-            presenceInsightsAdapter = PIAdapter(tenant: tenant, org: org, username: username, password: password)
-            presenceInsightsAdapter.enableLogging()
+//            presenceInsightsAdapter = PIAdapter(tenant: tenant, org: org, username: username, password: password)
+//            presenceInsightsAdapter.enableLogging()
         }
     }
     
@@ -52,21 +52,21 @@ class PresenceInsightsManager: NSObject {
     Use this function to register / update device with Presence Insights
     */
     func registerDevice() {
-        device = PIDevice(name: "Current User")
-        device.code = "Test Code!"
-        device.type = "Internal"
-        device.registered = true
-        device.addToUnencryptedDataObject("some location", key: "location")
-        device.addToUnencryptedDataObject("iOS", key: "phoneOS")
-        device.addToUnencryptedDataObject("Vortext", key: "appName")
-
-        presenceInsightsAdapter.registerDevice(device, callback: {newDevice, error in
-            if (error != nil) {
-                MQALogger.log("Error registering device with Presence Insights", withLevel: MQALogLevelWarning)
-            } else {
-                self.device = newDevice
-            }
-        })
+//        device = PIDevice(name: "Current User")
+//        device.code = "Test Code!"
+//        device.type = "Internal"
+//        device.registered = true
+//        device.addToUnencryptedDataObject("some location", key: "location")
+//        device.addToUnencryptedDataObject("iOS", key: "phoneOS")
+//        device.addToUnencryptedDataObject("Vortext", key: "appName")
+//
+//        presenceInsightsAdapter.registerDevice(device, callback: {newDevice, error in
+//            if (error != nil) {
+//                MQALogger.log("Error registering device with Presence Insights", withLevel: MQALogLevelWarning)
+//            } else {
+//                self.device = newDevice
+//            }
+//        })
     }
     
     /**
@@ -81,10 +81,10 @@ class PresenceInsightsManager: NSObject {
         callback(CGPoint(x: user.currentLocationX, y: user.currentLocationY))
         
         // In real-world, we would query PI to get the location
-        presenceInsightsAdapter.getDeviceByCode(user.deviceId) { returnedDevice, error in
-            if error == nil {
-                // Use data from the device returned from Presence Insights to determine user's location
-            }
-        }
+//        presenceInsightsAdapter.getDeviceByCode(user.deviceId) { returnedDevice, error in
+//            if error == nil {
+//                // Use data from the device returned from Presence Insights to determine user's location
+//            }
+//        }
     }
 }
