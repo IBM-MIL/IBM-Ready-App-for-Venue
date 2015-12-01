@@ -89,11 +89,6 @@
 		2ECCE6821BAC766D0092C38A /* CALayerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECCE6811BAC766D0092C38A /* CALayerExtension.swift */; };
 		2EE60A6B1BBB00440017F88A /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE60A6A1BBB00440017F88A /* UIViewExtension.swift */; };
 		2EE7176C1B8FAFBB00DC0567 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EE7176E1B8FAFBB00DC0567 /* Main.storyboard */; };
-		2EF45D461B85282200BFCF51 /* IBMMobileFirstPlatformFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EF45D411B85282200BFCF51 /* IBMMobileFirstPlatformFoundation.framework */; };
-		2EF45D471B85282200BFCF51 /* sqlcipher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EF45D421B85282200BFCF51 /* sqlcipher.framework */; };
-		2EF45D481B85282200BFCF51 /* sqlcipher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EF45D421B85282200BFCF51 /* sqlcipher.framework */; };
-		2EF45D4B1B85282200BFCF51 /* Localizations.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2EF45D441B85282200BFCF51 /* Localizations.bundle */; };
-		2EF45D4C1B85282200BFCF51 /* Localizations.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2EF45D441B85282200BFCF51 /* Localizations.bundle */; };
 		2EF45D4E1B85292000BFCF51 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EF45D4D1B85292000BFCF51 /* SystemConfiguration.framework */; };
 		2EF45D501B8529BF00BFCF51 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EF45D4F1B8529BF00BFCF51 /* MobileCoreServices.framework */; };
 		2EF45D521B8529C500BFCF51 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EF45D511B8529C500BFCF51 /* CoreData.framework */; };
@@ -134,12 +129,17 @@
 		A20C35A31BA8AAE100073F8D /* PlaceInviteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20C35A21BA8AAE100073F8D /* PlaceInviteViewController.swift */; };
 		A20C35A71BA8B3B300073F8D /* PlaceInviteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20C35A61BA8B3B300073F8D /* PlaceInviteViewModel.swift */; };
 		A20DB4F51BC5950000CAFA78 /* AdDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20DB4F41BC5950000CAFA78 /* AdDataManager.swift */; };
+		A22143731C0E0219008F7499 /* openssl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A221436C1C0E0219008F7499 /* openssl.framework */; };
+		A22143741C0E0219008F7499 /* Localizations.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A221436E1C0E0219008F7499 /* Localizations.bundle */; };
+		A22143751C0E0219008F7499 /* sample.worklight.plist in Resources */ = {isa = PBXBuildFile; fileRef = A221436F1C0E0219008F7499 /* sample.worklight.plist */; };
+		A22143791C0E0F5D008F7499 /* IBMMobileFirstPlatformFoundation.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A221436B1C0E0219008F7499 /* IBMMobileFirstPlatformFoundation.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A221437A1C0E0FD8008F7499 /* IBMMobileFirstPlatformFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A221436B1C0E0219008F7499 /* IBMMobileFirstPlatformFoundation.framework */; };
+		A221437B1C0E1002008F7499 /* IBMMobileFirstPlatformFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A221436B1C0E0219008F7499 /* IBMMobileFirstPlatformFoundation.framework */; };
 		A221EAAD1BC30D94003F9F0C /* FavoritedPOI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A221EAAC1BC30D94003F9F0C /* FavoritedPOI.swift */; };
 		A23148D61BB5E02700C3A9F2 /* RBStoryboardEmbedSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23148D51BB5E02700C3A9F2 /* RBStoryboardEmbedSegue.swift */; };
 		A231F0701BB9BB0800630F9A /* ChallengeTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = A231F06F1BB9BB0800630F9A /* ChallengeTask.swift */; };
 		A231F0711BB9C08700630F9A /* ChallengeTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = A231F06F1BB9BB0800630F9A /* ChallengeTask.swift */; };
 		A231F0741BB9CC7300630F9A /* BadgeDetailViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A231F0731BB9CC7300630F9A /* BadgeDetailViewCell.swift */; };
-		A2332DBD1B8E15E800D6E7CA /* IBMMobileFirstPlatformFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EF45D411B85282200BFCF51 /* IBMMobileFirstPlatformFoundation.framework */; };
 		A24C29161BAB70140026D311 /* Detail.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24C29151BAB70140026D311 /* Detail.swift */; };
 		A253E4E51BAA18B300679C0F /* AvatarImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A253E4E41BAA18B300679C0F /* AvatarImageCollectionViewCell.swift */; };
 		A26B3F711BB0AB8B00F7FBE0 /* PlaceDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26B3F701BB0AB8B00F7FBE0 /* PlaceDetailViewController.swift */; };
@@ -247,6 +247,7 @@
 			files = (
 				85AD36A51BFBD24300E57E38 /* PresenceInsightsSDK.framework in Embed Frameworks */,
 				85D582A51BEA8DE900B021C7 /* ReactiveCocoa.framework in Embed Frameworks */,
+				A22143791C0E0F5D008F7499 /* IBMMobileFirstPlatformFoundation.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -360,9 +361,6 @@
 		2ECCE6811BAC766D0092C38A /* CALayerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CALayerExtension.swift; sourceTree = "<group>"; };
 		2EE60A6A1BBB00440017F88A /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 		2EE7176F1B8FAFD200DC0567 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2EF45D411B85282200BFCF51 /* IBMMobileFirstPlatformFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IBMMobileFirstPlatformFoundation.framework; sourceTree = "<group>"; };
-		2EF45D421B85282200BFCF51 /* sqlcipher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = sqlcipher.framework; sourceTree = "<group>"; };
-		2EF45D441B85282200BFCF51 /* Localizations.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Localizations.bundle; sourceTree = "<group>"; };
 		2EF45D4D1B85292000BFCF51 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		2EF45D4F1B8529BF00BFCF51 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		2EF45D511B8529C500BFCF51 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
@@ -395,6 +393,10 @@
 		A20C35A21BA8AAE100073F8D /* PlaceInviteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceInviteViewController.swift; sourceTree = "<group>"; };
 		A20C35A61BA8B3B300073F8D /* PlaceInviteViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceInviteViewModel.swift; sourceTree = "<group>"; };
 		A20DB4F41BC5950000CAFA78 /* AdDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdDataManager.swift; sourceTree = "<group>"; };
+		A221436B1C0E0219008F7499 /* IBMMobileFirstPlatformFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IBMMobileFirstPlatformFoundation.framework; sourceTree = "<group>"; };
+		A221436C1C0E0219008F7499 /* openssl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = openssl.framework; sourceTree = "<group>"; };
+		A221436E1C0E0219008F7499 /* Localizations.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Localizations.bundle; sourceTree = "<group>"; };
+		A221436F1C0E0219008F7499 /* sample.worklight.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = sample.worklight.plist; sourceTree = "<group>"; };
 		A221EAAB1BC30665003F9F0C /* Venue 11.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Venue 11.xcdatamodel"; sourceTree = "<group>"; };
 		A221EAAC1BC30D94003F9F0C /* FavoritedPOI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritedPOI.swift; sourceTree = "<group>"; };
 		A23148D51BB5E02700C3A9F2 /* RBStoryboardEmbedSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RBStoryboardEmbedSegue.swift; sourceTree = "<group>"; };
@@ -483,6 +485,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2EF45D631B852B0800BFCF51 /* MobileCoreServices.framework in Frameworks */,
+				A221437A1C0E0FD8008F7499 /* IBMMobileFirstPlatformFoundation.framework in Frameworks */,
 				CD2BF4211BC4428C0063EB01 /* CoreSpotlight.framework in Frameworks */,
 				2E31C6691B8630660078F5D6 /* QuartzCore.framework in Frameworks */,
 				CD45B7801B96164C00F59F95 /* UIKit.framework in Frameworks */,
@@ -495,8 +498,8 @@
 				055CBFA71B8CFF8600A14928 /* CoreBluetooth.framework in Frameworks */,
 				059968E01B8BB5840010186A /* libsqlite3.dylib in Frameworks */,
 				059968F01B8BB7320010186A /* libGGLAnalytics.a in Frameworks */,
-				A2332DBD1B8E15E800D6E7CA /* IBMMobileFirstPlatformFoundation.framework in Frameworks */,
 				2E31C66D1B8630770078F5D6 /* CoreMotion.framework in Frameworks */,
+				A22143731C0E0219008F7499 /* openssl.framework in Frameworks */,
 				2E31C6671B86305D0078F5D6 /* AudioToolbox.framework in Frameworks */,
 				2E31C6651B86304E0078F5D6 /* AssetsLibrary.framework in Frameworks */,
 				2E31C6631B862D8E0078F5D6 /* CoreTelephony.framework in Frameworks */,
@@ -508,7 +511,6 @@
 				2EF45D611B852B0800BFCF51 /* CoreLocation.framework in Frameworks */,
 				2EF45D621B852B0800BFCF51 /* CoreData.framework in Frameworks */,
 				2EF45D641B852B0800BFCF51 /* SystemConfiguration.framework in Frameworks */,
-				2EF45D471B85282200BFCF51 /* sqlcipher.framework in Frameworks */,
 				2E31C6601B862D690078F5D6 /* Q4M.framework in Frameworks */,
 				059968F21B8BB7320010186A /* libGGLCore.a in Frameworks */,
 				059968D91B8BB55A0010186A /* libGoogleAnalytics.a in Frameworks */,
@@ -528,10 +530,9 @@
 				2EF45D501B8529BF00BFCF51 /* MobileCoreServices.framework in Frameworks */,
 				2EF45D4E1B85292000BFCF51 /* SystemConfiguration.framework in Frameworks */,
 				059968F11B8BB7320010186A /* libGGLAnalytics.a in Frameworks */,
-				2EF45D481B85282200BFCF51 /* sqlcipher.framework in Frameworks */,
 				2E31C6611B862D690078F5D6 /* Q4M.framework in Frameworks */,
+				A221437B1C0E1002008F7499 /* IBMMobileFirstPlatformFoundation.framework in Frameworks */,
 				059968F31B8BB7320010186A /* libGGLCore.a in Frameworks */,
-				2EF45D461B85282200BFCF51 /* IBMMobileFirstPlatformFoundation.framework in Frameworks */,
 				059968DA1B8BB55A0010186A /* libGoogleAnalytics.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -872,11 +873,11 @@
 		1B5533E71A5F16D4006DAECE /* ExternalLibraries */ = {
 			isa = PBXGroup;
 			children = (
+				A22143691C0E0219008F7499 /* IBMMobileFirstPlatformFoundation */,
 				059968C11B8BB55A0010186A /* GoogleAnalyticsServices */,
 				2E31C66E1B8631B60078F5D6 /* MQAExceptionHandler */,
 				052CFFBE1B98D4DB00AE3346 /* RBStoryBoardLink */,
 				A2084F101BBB0F2900D89F8D /* RoundProgress */,
-				2EF45D3F1B85282200BFCF51 /* WorklightAPI */,
 			);
 			path = ExternalLibraries;
 			sourceTree = "<group>";
@@ -1004,24 +1005,6 @@
 			path = Storyboards;
 			sourceTree = "<group>";
 		};
-		2EF45D3F1B85282200BFCF51 /* WorklightAPI */ = {
-			isa = PBXGroup;
-			children = (
-				2EF45D401B85282200BFCF51 /* Frameworks */,
-				2EF45D441B85282200BFCF51 /* Localizations.bundle */,
-			);
-			path = WorklightAPI;
-			sourceTree = "<group>";
-		};
-		2EF45D401B85282200BFCF51 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				2EF45D411B85282200BFCF51 /* IBMMobileFirstPlatformFoundation.framework */,
-				2EF45D421B85282200BFCF51 /* sqlcipher.framework */,
-			);
-			path = Frameworks;
-			sourceTree = "<group>";
-		};
 		2EFDB6621B94C1480063FB6E /* ReactiveUtils */ = {
 			isa = PBXGroup;
 			children = (
@@ -1042,6 +1025,34 @@
 				A2084F1A1BBB0F5F00D89F8D /* CERoundProgressView.m */,
 			);
 			name = RoundProgress;
+			sourceTree = "<group>";
+		};
+		A22143691C0E0219008F7499 /* IBMMobileFirstPlatformFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				A221436A1C0E0219008F7499 /* Frameworks */,
+				A221436D1C0E0219008F7499 /* Resources */,
+			);
+			name = IBMMobileFirstPlatformFoundation;
+			path = IBMMobileFirstPlatformFoundation/IBMMobileFirstPlatformFoundation;
+			sourceTree = "<group>";
+		};
+		A221436A1C0E0219008F7499 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A221436B1C0E0219008F7499 /* IBMMobileFirstPlatformFoundation.framework */,
+				A221436C1C0E0219008F7499 /* openssl.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		A221436D1C0E0219008F7499 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A221436E1C0E0219008F7499 /* Localizations.bundle */,
+				A221436F1C0E0219008F7499 /* sample.worklight.plist */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		A26B3F741BB0B21100F7FBE0 /* Invitations */ = {
@@ -1261,18 +1272,19 @@
 				2EF6ED541BC4799F00CD4A88 /* Challenges.storyboard in Resources */,
 				2E0E25321BCDB61C00EF1299 /* Alerts.storyboard in Resources */,
 				2E0E25361BCDB66600EF1299 /* Home.storyboard in Resources */,
-				2EF45D4B1B85282200BFCF51 /* Localizations.bundle in Resources */,
 				CD694D291BCC3D5D003C2937 /* Config.plist in Resources */,
 				1BB0B0801A61FF6700BB699F /* Localizable.strings in Resources */,
 				2E1685DA1B83E3EE0004832A /* worklight.plist in Resources */,
 				CD5B9A931BA770B9009F3133 /* DemoSettings.plist in Resources */,
 				A2E690AC1B94DE8900E02F05 /* OfflineData.json in Resources */,
+				A22143741C0E0219008F7499 /* Localizations.bundle in Resources */,
 				CDB33C041BAB6B5400713DC8 /* FilterSliderView.xib in Resources */,
 				1B5533C71A5EF9A1006DAECE /* Images.xcassets in Resources */,
 				CDD019961B9A000500FE607A /* PIConfig.plist in Resources */,
 				059968F51B8BB7770010186A /* GoogleService-Info.plist in Resources */,
 				2E0AB9711BA3361900D45D02 /* Lato-Light.ttf in Resources */,
 				2E0E253C1BCDB69600EF1299 /* People.storyboard in Resources */,
+				A22143751C0E0219008F7499 /* sample.worklight.plist in Resources */,
 				2E0AB9721BA3361900D45D02 /* Lato-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1281,7 +1293,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2EF45D4C1B85282200BFCF51 /* Localizations.bundle in Resources */,
 				059968F61B8BB7770010186A /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1637,6 +1648,7 @@
 					"$(PROJECT_DIR)/Venue/Frameworks",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Venue/ExternalLibraries/IBMMobileFirstPlatformFoundation/IBMMobileFirstPlatformFoundation/Frameworks",
 				);
 				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
 				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
@@ -1676,6 +1688,7 @@
 					"$(PROJECT_DIR)/Venue/Frameworks",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Venue/ExternalLibraries/IBMMobileFirstPlatformFoundation/IBMMobileFirstPlatformFoundation/Frameworks",
 				);
 				GCC_VERSION = "";
 				HEADER_SEARCH_PATHS = "$(SRCROOT)/WorklightAPI/include";
@@ -1707,6 +1720,7 @@
 					"$(PROJECT_DIR)/Venue/ExternalLibraries/WorklightAPI/Frameworks",
 					"$(PROJECT_DIR)/Venue/Frameworks",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Venue/ExternalLibraries/IBMMobileFirstPlatformFoundation/IBMMobileFirstPlatformFoundation/Frameworks",
 				);
 				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
 				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
@@ -1741,6 +1755,7 @@
 					"$(PROJECT_DIR)/Venue/ExternalLibraries/WorklightAPI/Frameworks",
 					"$(PROJECT_DIR)/Venue/Frameworks",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Venue/ExternalLibraries/IBMMobileFirstPlatformFoundation/IBMMobileFirstPlatformFoundation/Frameworks",
 				);
 				INFOPLIST_FILE = VenueTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
