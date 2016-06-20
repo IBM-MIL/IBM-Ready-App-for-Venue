@@ -8,7 +8,6 @@ import CoreData
 
 /// Class to represent a User object
 class User: NSObject {
-    private var presenceInsightsManager = PresenceInsightsManager.sharedInstance
     
     let id: Int
     let deviceId: String
@@ -96,9 +95,7 @@ class User: NSObject {
     // Update to use CGPoint instead of location name
     func updateUserLocation(callback: (CGPoint)->()) {
         // Get the user's current location
-        presenceInsightsManager.getUserLocation(self, callback: { (location: CGPoint) in
-            callback(location)
-        })
+        callback(CGPoint(x: currentLocationX,y: currentLocationY))
     }
     
 }
