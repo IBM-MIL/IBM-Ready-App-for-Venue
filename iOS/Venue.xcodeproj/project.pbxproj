@@ -114,8 +114,6 @@
 		857F766C1BBDDC2200A3D057 /* VenueHomeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857F766B1BBDDC2200A3D057 /* VenueHomeUITests.swift */; };
 		858841C91BA8DF1B000A603F /* VenueAlertTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858841C81BA8DF1B000A603F /* VenueAlertTests.swift */; };
 		85A4DBF71BA74FCB008AB161 /* VenueMapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A4DBF61BA74FCB008AB161 /* VenueMapUITests.swift */; };
-		85AD36A41BFBD21D00E57E38 /* PresenceInsightsSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85AD36A31BFBD21D00E57E38 /* PresenceInsightsSDK.framework */; };
-		85AD36A51BFBD24300E57E38 /* PresenceInsightsSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 85AD36A31BFBD21D00E57E38 /* PresenceInsightsSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		85D5829F1BEA7DFD00B021C7 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85D5829E1BEA7DFD00B021C7 /* ReactiveCocoa.framework */; };
 		85D582A41BEA8DE900B021C7 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85D5829E1BEA7DFD00B021C7 /* ReactiveCocoa.framework */; };
 		85D582A51BEA8DE900B021C7 /* ReactiveCocoa.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 85D5829E1BEA7DFD00B021C7 /* ReactiveCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -194,7 +192,6 @@
 		CDD1DC431B94DC23005700A4 /* PlacesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD1DC421B94DC23005700A4 /* PlacesViewController.swift */; };
 		CDDB60541B8FB10E004B1C52 /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDB60531B8FB10E004B1C52 /* NotificationsViewController.swift */; };
 		CDF2958D1B989B6D00B50A0B /* ChallengesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF2958C1B989B6D00B50A0B /* ChallengesViewController.swift */; };
-		CDF2958F1B98A64800B50A0B /* PresenceInsightsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF2958E1B98A64800B50A0B /* PresenceInsightsManager.swift */; };
 		CDF295901B98CD1100B50A0B /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B743581B96388E00D22542 /* Notification.swift */; };
 		CDFC035E1BBF2270009CDD4C /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFC035D1BBF2270009CDD4C /* UIImageExtension.swift */; };
 		CDFF52641BA0EA1F009B0780 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFF52631BA0EA1F009B0780 /* UIColorExtension.swift */; };
@@ -245,7 +242,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				85AD36A51BFBD24300E57E38 /* PresenceInsightsSDK.framework in Embed Frameworks */,
 				85D582A51BEA8DE900B021C7 /* ReactiveCocoa.framework in Embed Frameworks */,
 				A22143791C0E0F5D008F7499 /* IBMMobileFirstPlatformFoundation.framework in Embed Frameworks */,
 			);
@@ -379,7 +375,6 @@
 		857F766B1BBDDC2200A3D057 /* VenueHomeUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VenueHomeUITests.swift; sourceTree = "<group>"; };
 		858841C81BA8DF1B000A603F /* VenueAlertTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VenueAlertTests.swift; sourceTree = "<group>"; };
 		85A4DBF61BA74FCB008AB161 /* VenueMapUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VenueMapUITests.swift; sourceTree = "<group>"; };
-		85AD36A31BFBD21D00E57E38 /* PresenceInsightsSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PresenceInsightsSDK.framework; sourceTree = "<group>"; };
 		85D5829E1BEA7DFD00B021C7 /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ReactiveCocoa.framework; sourceTree = "<group>"; };
 		85E22BD91BB34A5B002DE13F /* VenueInvitatoinUIFlow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VenueInvitatoinUIFlow.swift; sourceTree = "<group>"; };
 		A205270D1BBDF127004F73E6 /* OnboardingContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingContentViewController.swift; sourceTree = "<group>"; };
@@ -465,7 +460,6 @@
 		CDD1DC421B94DC23005700A4 /* PlacesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlacesViewController.swift; sourceTree = "<group>"; };
 		CDDB60531B8FB10E004B1C52 /* NotificationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
 		CDF2958C1B989B6D00B50A0B /* ChallengesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChallengesViewController.swift; sourceTree = "<group>"; };
-		CDF2958E1B98A64800B50A0B /* PresenceInsightsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresenceInsightsManager.swift; sourceTree = "<group>"; };
 		CDFC035D1BBF2270009CDD4C /* UIImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
 		CDFF52631BA0EA1F009B0780 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		D4006A911BB48F2F008E380C /* PeopleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleViewController.swift; sourceTree = "<group>"; };
@@ -493,7 +487,6 @@
 				CD45B77E1B96164300F59F95 /* CoreGraphics.framework in Frameworks */,
 				CD45B77C1B96163300F59F95 /* libxml2.2.dylib in Frameworks */,
 				CD45B77A1B96161A00F59F95 /* CoreImage.framework in Frameworks */,
-				85AD36A41BFBD21D00E57E38 /* PresenceInsightsSDK.framework in Frameworks */,
 				2E31C66B1B86306E0078F5D6 /* CoreText.framework in Frameworks */,
 				055CBFA71B8CFF8600A14928 /* CoreBluetooth.framework in Frameworks */,
 				059968E01B8BB5840010186A /* libsqlite3.dylib in Frameworks */,
@@ -842,7 +835,6 @@
 		1B5533E61A5F16CD006DAECE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				85AD36A31BFBD21D00E57E38 /* PresenceInsightsSDK.framework */,
 				85D5829E1BEA7DFD00B021C7 /* ReactiveCocoa.framework */,
 				2E31C6641B86304E0078F5D6 /* AssetsLibrary.framework */,
 				2E31C6661B86305C0078F5D6 /* AudioToolbox.framework */,
@@ -910,7 +902,6 @@
 				2E29C6291B8620230051FBBF /* ManagerHelper.swift */,
 				2E855B6C1BA780AD00791C29 /* NotificationDataManager.swift */,
 				CD5B9A8E1BA758EF009F3133 /* PoiDataManager.swift */,
-				CDF2958E1B98A64800B50A0B /* PresenceInsightsManager.swift */,
 				2E29C62A1B8620230051FBBF /* UserDataManager.swift */,
 			);
 			path = DataSources;
@@ -1405,7 +1396,6 @@
 				2E5AFE011BC852F4005FEB9E /* ArrayExtension.swift in Sources */,
 				CDB95D331B964A96001B1023 /* NotificationsViewModel.swift in Sources */,
 				2E49DBBC1BC86E82000FA7C9 /* LoadingManager.swift in Sources */,
-				CDF2958F1B98A64800B50A0B /* PresenceInsightsManager.swift in Sources */,
 				CD21766D1B9F701000E42924 /* MyLocationAnnotation.swift in Sources */,
 				1B5533C01A5EF9A1006DAECE /* AppDelegate.swift in Sources */,
 				CDD1DC411B94DC08005700A4 /* HomeViewController.swift in Sources */,

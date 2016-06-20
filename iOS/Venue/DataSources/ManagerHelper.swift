@@ -50,7 +50,7 @@ class ManagerHelper: NSObject {
             request.setQueryParameterValue(parameters, forName: "params")
         }
         
-        request.sendWithCompletionHandler { (WLResponse response, NSError error) -> Void in
+        request.sendWithCompletionHandler { (response, error) -> Void in
             
             if(error != nil) { // connection success with error
                 self.delegate.resourceFailure("ERROR: \(response.responseText)")
